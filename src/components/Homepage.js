@@ -1,3 +1,4 @@
+import Header from "./Header";
 import styled from "styled-components";
 
 const HomePageContainer = styled.div`
@@ -6,5 +7,9 @@ const HomePageContainer = styled.div`
 `;
 
 export default function Homepage() {
-  return <HomePageContainer />;
+  return (
+    <HomePageContainer>
+      <Header></Header>
+    </HomePageContainer>
+  );
 }
