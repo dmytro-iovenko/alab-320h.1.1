@@ -1,5 +1,6 @@
 import Header from "./Header";
 import SearchBar from "./SearchBar";
+import EmployeeList from "./EmployeeList";
 import styled from "styled-components";
 
 const HomePageContainer = styled.div`
@@ -12,6 +13,7 @@ export default function Homepage() {
     <HomePageContainer>
       <Header></Header>
       <SearchBar></SearchBar>
+      <EmployeeList></EmployeeList>
     </HomePageContainer>
   );
 }
