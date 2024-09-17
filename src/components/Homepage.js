@@ -1,4 +1,5 @@
 import Header from "./Header";
+import SearchBar from "./SearchBar";
 import styled from "styled-components";
 
 const HomePageContainer = styled.div`
@@ -10,6 +11,7 @@ export default function Homepage() {
   return (
     <HomePageContainer>
       <Header></Header>
+      <SearchBar></SearchBar>
     </HomePageContainer>
   );
 }
