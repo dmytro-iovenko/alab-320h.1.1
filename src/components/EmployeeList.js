@@ -1,3 +1,4 @@
+import EmployeeListItem from "./EmployeeListItem";
 import styled from "styled-components";
 
 const EmployeeListContainer = styled.section`
@@ -7,5 +8,14 @@ const EmployeeListContainer = styled.section`
 `;
 
 export default function EmployeeList() {
-  return <EmployeeListContainer></EmployeeListContainer>;
+  return (
+    <EmployeeListContainer>
+      <EmployeeListItem></EmployeeListItem>
+      <EmployeeListItem></EmployeeListItem>
+      <EmployeeListItem></EmployeeListItem>
+      <EmployeeListItem></EmployeeListItem>
+      <EmployeeListItem></EmployeeListItem>
+      <EmployeeListItem></EmployeeListItem>
+    </EmployeeListContainer>
+  );
 }
